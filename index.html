@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Carga la biblioteca html2canvas desde un CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Generador de fraces en imagen</title>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <section><h2>Generador de fraces</h2></section>
+        </header>
+        <main>
+            <section class="aside-btn">
+                <input type="range" id="inputTamano" value="16" min="16" max="25" />
+                <button id="btnCopiar" class="btnCopiar"></button>
+                <button id="btnEliminar" class="btnEliminar"></button>
+                <button id="btnGuardar" class="btnGuardar"></button>
+            </section>
+            <section>
+                <div id="idFrace">
+                    <section><p style="color: var(--colt-4);">Si algún día quieres llorar llámame, no prometo hacerte reír, pero puedo llorar contigo.</p><p style="color: var(--colt-2);">Si un día logras escapar, no dudes en llamarme, no prometo pedirte que te quedes, pero podré escapar contigo.</p><p style="color: var(--colt-5);">Si un día no quieres hablar con nadie, llámame, estaremos en silencio.</p><p style="color: var(--colt-7);">Pero si me llamas un día y no contesto, ven corriendo a mí, porque sin duda, te necesitaré.</p></section>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="footer">
+                <input type="search" id="inputTexto">
+                <button id="btnBuscar" class="btnBuscar"></button>
+                <button id="btnGenerar" class="btnGenerar"></button>
+                <button id="btnDescargar" class="btnDescargar"></button>
+            </section>
+        </footer>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>

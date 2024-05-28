@@ -1,0 +1,120 @@
+/*https://icons8.com/icon/set/copy/sf-regular
+https://www.iconfinder.com/search?q=copy
+*/
+:root {
+    --colt-1: #A6E22E;
+    --colt-2: #ef476f;
+    --colt-3: #ffe122;
+    --colt-4: #AE81FF;
+    --colt-5: #33ffff;
+    --colt-6:#06ffbd;
+    --colt-7:#438bf8;
+    --colt-8:#ff8e16;
+}
+body {
+    background-color: #282c34;
+    color: #F8F8F2;
+    font-family: consolas, 'Courier New', Courier, monospace;
+}
+
+header {
+    flex-grow: 1;
+    display: flex;
+    background: #039a71;
+    justify-content: center;
+}
+main{
+    flex-grow: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header , main , footer {
+    border: 0px solid ghostwhite;
+}
+footer{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+
+footer input {
+    border: 1px solid #000;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 10px;
+    width: 250px;
+  }
+footer button{
+    padding: 10px;
+}  
+footer section{
+    text-align: center;
+}
+
+.main {
+    border:inset 5px solid tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 100vh;
+}
+
+#idFrace section {
+    padding: 0px 25px;
+}
+
+#idFrace {
+    display: flex;
+    align-items: center;
+    background-color: #282c34;
+    text-align: center;
+    border: 1px solid #272822;
+    aspect-ratio: 3 / 4;
+    width: 50vh;
+    margin: 0 auto;
+}
+
+.btnGuardar,.btnCopiar,.btnEliminar,.btnBuscar, .btnGenerar,.btnDescargar {
+    display: inline-block;
+    background-color: #abb2bf;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0px 20px;
+  }
+  .btnBuscar, .btnGenerar,.btnDescargar{
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+  }
+  
+.btnCopiar {
+    background-image: url(../assets/ico-app/8664889_copy_icon.svg);
+  }
+.btnGuardar {
+    background-image: url(../assets/ico-app/icons8-bookmark.svg);
+  }
+.btnEliminar{
+    background-image: url(../assets/ico-app/icons8-delete.svg);
+}
+.btnBuscar{
+    background-image: url(../assets/ico-app/icons8-search.svg);
+}
+.btnGenerar{
+    background-image: url(../assets/ico-app/icons8-image-file.svg);
+}.btnDescargar{
+    background-image: url(../assets/ico-app/icons8-download-from-the-cloud.svg);
+}
+
+.aside-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
